@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arvo';
+    font-size: 16px;
+    background: #f3f3f3;
+    text-align: center;
+}
+
+#app{
+    padding-top: 70px;
+}
+
+.card{
+    padding: 10px;
+    margin: 10px;
+    z-index: 0;
+    margin-bottom: 50px;
+}
+
+.image-tile{
+    max-width: 300px;
+    max-height: 300px;
+    height: auto;
+    width: auto;
+}
+
+.image-col{
+    max-width: 320px;
+    height: auto;
+}
+
+.image-row{
+    max-height: 400px;
+    width: auto;
+    justify-content: center;
+}
+
+.page-header {
+    z-index: 1;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+    background: #666666;
+    color: #F8F8F8;
+    min-width: 100%;
+}
+
+h1{
+    font-size: 30px;
+    padding: 5px;
+}
+
+h2{
+    font-size: 25px;
+    padding: 5px;
+}
+
+.page-footer{
+    background: #666666;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+}
